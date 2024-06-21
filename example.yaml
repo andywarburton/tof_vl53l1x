@@ -4,6 +4,7 @@ esphome:
   includes:
     - tof_vl53l1x.h
   libraries:
+    - "Wire"
     - "VL53L1x"
 
 wifi:
